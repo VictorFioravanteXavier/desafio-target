@@ -34,5 +34,5 @@ distribuidora.forEach((element) => {
 
 distribuidora.forEach(element => {
     const pocentagem = (element.valor/total_fatuarmento_distribuidora)*100
-    console.log(`${element.estado} - ${pocentagem}`)
+    console.log(`${element.estado} - ${pocentagem.toFixed(2)}%`)
 })
